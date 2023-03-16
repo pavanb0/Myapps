@@ -1,0 +1,12 @@
+import java.util.*
+fun main()
+{
+    val sc=Scanner(System.`in`)
+    println("Enter the number: ")
+    val num=sc.nextInt()
+    for (i in 1..10)
+    {
+        val result = num * i
+        println("$num*$i = $result")
+    }
+}

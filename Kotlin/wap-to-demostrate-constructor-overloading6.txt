@@ -1,0 +1,32 @@
+import java.util.*
+class Area
+{
+    var x:Int
+    var y:Int=0
+    constructor(rad:Int)
+    {
+        x=rad
+    }
+    constructor(len:Int,bre:Int)
+    {
+        x=len
+        y=bre
+    }
+    fun carea()
+    {
+        var a=3.14*x*x
+        println("Area of a circle=$a")
+    }
+    fun rarea()
+    {
+        var a=x*y
+        println("Area of a rectangle is $a")
+    }
+}
+fun main()
+{
+    var o1 = Area(3)
+    var o2 = Area(3,4)
+    o1.carea()
+    o2.rarea()
+}

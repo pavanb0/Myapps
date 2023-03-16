@@ -1,0 +1,25 @@
+import java.util.*
+fun main()
+{
+    var div = 0
+    var sc=Scanner(System.`in`)
+    try
+    {
+        println("Enter numerator and denominator")
+        var x=sc.nextInt()
+        var y=sc.nextInt()
+        div=x/y
+    }
+    catch(e:ArithmeticException)
+    {
+        println(e.message)
+    }
+    catch(e:InputMismatchException)
+    {
+        println("Wrong Input")
+    }
+    finally
+    {
+        println("Division = $div")
+    }
+}

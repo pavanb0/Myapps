@@ -1,0 +1,22 @@
+import java.util.*
+fun main()
+{
+    val sc=Scanner(System.`in`)
+    println("Enter a lowercase character: ")
+    var ch = sc.next().first()
+    var asc=ch.code
+    if(asc>=97 && asc<=122)
+    {
+        var res = when(ch)
+        {
+            'a','e','i','o','u' -> "Vowel"
+            else -> "Consonent"
+        }
+        print("Character is $res")
+    }
+    else
+    {
+        println("Invalid Character")
+    }
+        
+}

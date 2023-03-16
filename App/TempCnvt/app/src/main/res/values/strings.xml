@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TempCnvt</string>
+    <string name="f_to_c">F° to C°  (C = (F-32) ×5/9)</string>
+</resources>

@@ -1,0 +1,20 @@
+import java.util.*
+fun main()
+{
+    val sc=Scanner(System.`in`)
+    println("Enter First Number: ")
+    var first = sc.nextInt()
+    println("Enter Second Number: ")
+    var second = sc.nextInt()
+    println("Enter Third Number: ")
+    var third = sc.nextInt()
+    
+    val largest = if(first>second && first>third)
+        first
+    else if(second > third)
+        second
+    else 
+    third
+    
+    println("The largest number is $largest")
+}

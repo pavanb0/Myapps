@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        >
+
+        <TextView
+            android:height="60dp"
+            android:layout_width="match_parent"
+            android:text="result"
+            android:textSize="25dp"
+            android:textColor="@color/teal_200"
+            android:textAlignment="center"
+            android:id="@+id/answergrid"
+            android:layout_span="2">
+
+        </TextView>
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="FirstNo"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="secondNO"
+            android:inputType="numberDecimal" />
+
+    </TableRow>
+
+    <TableRow>
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_margin="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_margin="4dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_margin="4dp"
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*" />
+
+        <Button
+            android:layout_margin="4dp"
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/" />
+
+    </TableRow>
+
+
+
+</TableLayout>
