@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/main1"
+        android:title="C to F "/>
+
+    <item android:id="@+id/main2"
+        android:title="F to C"/>
+
+    <item android:id="@+id/main3"
+        android:title="C to K"/>
+
+    <item android:id="@+id/main4"
+        android:title="K to C"/>
+
+    <item android:id="@+id/main5"
+        android:title="C to J"/>
+
+</menu>
